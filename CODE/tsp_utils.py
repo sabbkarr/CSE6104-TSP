@@ -11,7 +11,10 @@ Functions:
 
 Usage:
 Import this file into your TSP solution files to reuse these utility functions,
-avoiding redundancy across different TSP solution approaches.
+avoiding redundancy across different TSP solution approaches. E.g.,
+import sys
+sys.path.append("PATH_TO_THIS_DIRECTORY")
+from tsp_utils import read_tsp_file, total_distance, euclidean_distance
 
 Outputs:
 - Coordinates of nodes in Python list (parsed from TSP files)
