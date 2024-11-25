@@ -1,3 +1,7 @@
+"""
+Brute-force implementation for solving the TSP with a time cut-off.
+"""
+
 from tsp_utils import read_tsp_file, total_distance, euclidean_distance
 import itertools
 import time
