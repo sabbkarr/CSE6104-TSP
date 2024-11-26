@@ -16,7 +16,7 @@ print("Best cost (bruteforce):", round(best_cost, 2))
 
 
 # Approximate
-best_route, best_cost = approximate_alg(points)
+best_route, best_cost = mst_tsp_approximation(points)
 print("Best route found (approximate):", best_route)
 print("Best cost (approximate):", round(best_cost, 2))   
 
