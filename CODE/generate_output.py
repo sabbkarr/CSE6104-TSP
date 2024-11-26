@@ -14,12 +14,12 @@ best_route, best_cost = brute_force_tsp(points, time_limit)
 print("Best route found (bruteforce):", best_route)
 print("Best cost (bruteforce):", round(best_cost, 2))
 
-"""
+
 # Approximate
-best_route, best_cost = approximate_tsp(points)
+best_route, best_cost = approximate_alg(points)
 print("Best route found (approximate):", best_route)
 print("Best cost (approximate):", round(best_cost, 2))   
-"""
+
 
 """
 # Local Search
