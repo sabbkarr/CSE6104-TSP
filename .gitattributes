@@ -1,0 +1,2 @@
+CODE/build/main/main.pkg filter=lfs diff=lfs merge=lfs -text
+CODE/dist/main.exe filter=lfs diff=lfs merge=lfs -text
