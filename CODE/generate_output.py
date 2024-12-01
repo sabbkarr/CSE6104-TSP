@@ -20,9 +20,9 @@ best_route, best_cost = mst_tsp_approximation(points)
 print("Best route found (approximate):", best_route)
 print("Best cost (approximate):", round(best_cost, 2))   
 
-
+'''
 # Local Search
-best_route, best_cost = mst_tsp_approximation(points)
+best_route, best_cost = local_search(points)
 print("Best route found (local search):", best_route)
 print("Best cost (local search):", round(best_cost, 2))   
-
+'''
